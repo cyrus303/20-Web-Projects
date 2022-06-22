@@ -76,11 +76,22 @@ p {
   border: none;
   background: transparent;
   text-align: right;
-  font-size: 30px;
-  width: 50px;
+  font-size: 25px;
+  width: 70%;
 }
 
 .swap-rate-container {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.rate {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 .container {
